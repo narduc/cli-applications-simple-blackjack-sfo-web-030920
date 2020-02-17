@@ -48,7 +48,6 @@ def hit?(num)
     num
   else
     invalid_command
-   # num
    prompt_user
    get_user_input
   end
@@ -56,10 +55,7 @@ def hit?(num)
 end
 
 def invalid_command
-  # code invalid_command here
   puts "Please enter a valid command"
-   # prompt_user
-   # get_user_input
 end
 
 #####################################################
