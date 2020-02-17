@@ -50,6 +50,7 @@ def hit?(num)
     invalid_command
    # num
    prompt_user
+   get_user_input
   end
 
 end
