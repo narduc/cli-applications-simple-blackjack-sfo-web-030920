@@ -70,6 +70,7 @@ def runner
   until total > 21
     total = hit?(total)
     display_card_total(total)
+    puts "Sorry, you hit #{total}. Thanks for playing!"
   end
 #  end_game(total)
 end
