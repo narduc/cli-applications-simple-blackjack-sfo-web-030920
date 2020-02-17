@@ -40,7 +40,7 @@ end
 
 def hit?(num)
   # code hit? here
-  prompt_user
+  puts prompt_user
   user_inpt = get_user_input
   if user_inpt == "h"
     num += deal_card
